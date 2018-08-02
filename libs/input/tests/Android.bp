@@ -32,7 +32,5 @@ cc_library_static {
     srcs: ["StructLayout_test.cpp"],
     cflags: [
         "-O0",
-        "-Wall",
-        "-Werror",
     ],
 }
