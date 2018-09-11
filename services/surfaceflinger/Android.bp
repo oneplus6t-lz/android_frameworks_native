@@ -150,7 +150,8 @@ cc_library_shared {
         "-fwhole-program-vtables", // requires ThinLTO
     ],
     lto: {
-        thin: true,
+        thin: false,
+        full: true,
     },
 }
 
