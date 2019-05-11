@@ -226,7 +226,7 @@ SurfaceFlinger::SurfaceFlinger(SurfaceFlinger::SkipInitializationTag)
         mBootStage(BootStage::BOOTLOADER),
         mDebugRegion(0),
         mDebugDDMS(0),
-        mDebugDisableHWC(0),
+        mDebugDisableHWC(1),
         mDebugDisableTransformHint(0),
         mDebugInSwapBuffers(0),
         mLastSwapBufferTime(0),
